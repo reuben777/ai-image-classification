@@ -4,7 +4,7 @@ import numpy as np
 from helper_functions import go_go_categories, go_go_load_checkpoint, go_go_predict, go_go_print
 
 arg_parse = argparse.ArgumentParser(description='predict.py')
-arg_parse.add_argument('--image_dir', default='C:/Users/reube/Documents/aipnd-project/flowers/valid/18/image_04252.jpg', nargs='*', action="store", type = str)
+arg_parse.add_argument('--image_dir', default='./flowers/valid/18/image_04252.jpg', nargs='*', action="store", type = str)
 arg_parse.add_argument('--image_category', default='18', nargs='*', action="store", type = str)
 arg_parse.add_argument('--topk', default=10, nargs='*', action="store", type = int)
 arg_parse.add_argument('--checkpoint', default='./checkpoint.pth', nargs='*', action="store", type = str)
