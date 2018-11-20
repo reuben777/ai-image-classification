@@ -5,6 +5,9 @@
 Project code for Udacity's AI Programming with Python Nanodegree program. In this project, students first develop code for an image classifier built with PyTorch, then convert it into a command line application.
 #### My Description
 A really fun project that brings together all the various components taught throughout the course into a decent challenge.
+
+**PLEASE NOTE:**
+A lot of the `go_go_network()` code I have derived from pytorch's [image transfer learning tutorial](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html). This is obviously my own implementation. But I need to make it known. ;)
 ## Prerequisites
 * Anaconda. You can download [here](https://www.anaconda.com/download/). This must be python 3.6 or higher. Or use whatever environment manager of your choice. Pytorch talks about `Chocolatey`. Never tried it, but it sounds yummy.
 * `Pytorch` with `torchvision`. Follow the get started installation process as provided by pytorch.org [here](https://pytorch.org/get-started/locally/). I suggest taking python 3.7.
